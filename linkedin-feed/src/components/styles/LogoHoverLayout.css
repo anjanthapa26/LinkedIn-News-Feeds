@@ -1,0 +1,43 @@
+.logo-hover {
+    opacity: 1.0;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    background-color: white;
+    transition: all 500ms ease-in-out;
+    transition-delay: 1s;
+    border-radius: 3px;
+    border: 1px solid #E0DFDC;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.4)!important;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+    max-width: 100% !important;
+    border-radius: 5px !important;
+    border-radius:1.6rem !important;
+    padding-left: 1.6rem!important;
+    padding-right: 1.6rem!important;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 600;
+    min-width: 6.4rem;
+    max-width: 480px;
+    color: white;
+    text-align: center;
+    transition-property: background-color,box-shadow,color;
+    vertical-align: middle;
+    background-color: #2376C8;
+    margin-bottom: 4px;
+}
